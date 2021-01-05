@@ -1,0 +1,50 @@
+.container {
+  max-width: 1600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+button {
+  cursor: pointer;
+}
+
+#modal-open {
+  font-size: 15px;
+  border-radius: 25px;
+  outline: none;
+}
+
+#modal-close {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+.active {
+  display: flex;
+}
+
+.not-active {
+  display: none;
+}
+
+.ST-modal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal__window {
+  position: absolute;
+  margin: 100px 15px 0;
+  text-align: center;
+  max-width: 500px;
+  padding: 20px;
+  background: #eee;
+}
+
+/*# sourceMappingURL=/source.e31bb0bc.css.map */
